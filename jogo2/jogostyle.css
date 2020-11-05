@@ -1,0 +1,67 @@
+#game-intro {
+  text-align: center;
+  margin: 40px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid black;
+
+  background-image: url("images/kitchenkaos.gif");
+  background-color: #cccccc;
+}
+
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+}
+
+.boards {
+  text-align: center;
+  margin: 40px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid black;
+}
+
+h1 {
+  color: red;
+  font-family: "Dancing Script", cursive;
+  margin-bottom: 40px;
+}
+
+#teclado {
+  height: 200px;
+  width: 300px;
+  padding: 30px;
+}
+
+.item-img {
+  height: 200px;
+  width: 200px;
+}
+
+.canvas-class {
+  text-align: center;
+  margin: 40px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button {
+  padding-top: 40px;
+}
+
+.btn-info {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
